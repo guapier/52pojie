@@ -1,21 +1,15 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/01/23 10:02
 # @Author  : xuzy
-# @Email   : xuzy@zac.cn
-# @File    : etax-gd.py
 # @Software: PyCharm
 # @Function:
-from PIL import Image, ImageEnhance
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-import cv2
-import numpy as np
 from io import BytesIO
-import time, requests
 import re
 import random, time
 import shutil
